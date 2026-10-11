@@ -186,6 +186,9 @@ async function startRun() {
         input_player1_b: 'x',          // GBA 'B' button -> 'X' key
         input_player1_l: 'a',          // GBA 'L' button -> 'A' key
         input_player1_r: 'w',          // GBA 'R' button -> 'W' key
+
+        // --- Fast-Forward Control ---
+        input_toggle_fast_forward: 'space', // Press Space to toggle fast-forward on/off
       },
     });
 
