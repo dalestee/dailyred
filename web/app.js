@@ -181,6 +181,11 @@ async function startRun() {
         // debugging tools in tests/ read the game's RAM.
         savestate_file_compression: false,
         savestate_thumbnail_enable: false,
+        // --- Custom Keyboard Controls ---
+        input_player1_a: 'z',          // GBA 'A' button -> 'Z' key
+        input_player1_b: 'x',          // GBA 'B' button -> 'X' key
+        input_player1_l: 'a',          // GBA 'L' button -> 'A' key
+        input_player1_r: 'w',          // GBA 'R' button -> 'W' key
       },
     });
 
